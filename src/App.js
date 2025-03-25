@@ -1,16 +1,17 @@
 // import logo from './logo.svg';
 // import './App.css';
-import { Route, Routes } from "react-router-dom";
-// import { useState, useEffect } from "react";
+import { Route, Routes, } from "react-router-dom";
+// import { useState, useEffect } from "react"
 // import VehicleData from "./Pages/VehicleData";
+import Login from "./pages/login";
 
-import VerifyComponent from "./Pages/verify";
-import Dashboard from "./Pages/dashboard";
+import VerifyComponent from "./pages/verifyPage";
+import Dashboard from "./pages/dashboard";
+
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-// import Protected from "./protected";
-// import LoginProtected from "./loginProtect";
-import SignUp from "./Pages/signup";
+
+import SignUp from "./pages/signup";
 // import maintainence from "./Pages/maintainence";
 // import Waranty from "./Pages/waranty";
 // import Settings from "./Pages/Settings";
