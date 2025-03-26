@@ -7,7 +7,12 @@ import Login from "./pages/login";
 
 import VerifyComponent from "./pages/verifyPage";
 import Dashboard from "./pages/dashboard";
-
+import Payroll from "./pages/payRoll";
+import Earning from "./pages/earningBreakdown";
+import Paystub from "./pages/payStub";
+import Taxform from "./pages/taxForm";
+import Statement from "./pages/statement";
+import Summary from "./pages/summary";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -46,6 +51,12 @@ function App() {
         <Route path="/signup" element={<SignUp/>} />
 
         <Route path="/Dashboard" element={<Dashboard />} />
+        <Route path="/Payroll" element={<Payroll />} />
+        <Route path="/earning" element={<Earning />} />
+        <Route path="/paystub" element={<Paystub />} />
+        <Route path="/taxform" element={<Taxform />} />
+        <Route path="/statement" element={<Statement />} />
+        <Route path="/summary" element={<Summary />} />
 
         {/* <Route path="/dashboard" exact element={<Protected Children={Dashboard} isLoggedIn={localStorage.getItem("token")!=null}/>} /> */}
         {/* <Route path="/vin" exact element={<Protected Children={VINcode} isLoggedIn={localStorage.getItem("token")!=null} />} />
