@@ -16,7 +16,7 @@ const Calendar = ({ onDateSelect }) => {
         {dates.map((date) => (
           <div
             key={date}
-            className="p-2 cursor-pointer hover:bg-green-100 rounded-md"
+            className="p-2 cursor-pointer hover:bg-[#033701] rounded-md"
             onClick={() => onDateSelect(date)}
           >
             {date}
