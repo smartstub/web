@@ -146,52 +146,38 @@ const Dashboard = () => {
   </div>
 </div>
 
-    <div className="grid grid-cols-1 md:grid-cols-10 gap-6 p-6 bg-[#f3f3f3] min-h-screen ">
+<div className="grid grid-cols-1 lg:grid-cols-10 gap-6 p-6 bg-[#f3f3f3] min-h-screen">
       {/* First Part - 70% Width */}
-      <div className="col-span-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="lg:col-span-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
         {/* Chart Card */}
-       
-        <div className="col-span-2 p-4 shadow-xl rounded-xl bg-white h-96">
-      
-      
-        <CustomBarChart />
-      
-    </div>
-
-        {/* Right Side - Tax Management (Top) & Average (Bottom) */}
-        <div className="flex flex-col gap-6">
-          {/* Tax Management Card */}
+        <div className="md:col-span-2 xl:col-span-2 p-4 shadow-xl rounded-xl bg-white h-96">
+          <CustomBarChart />
+        </div>
+        
+        {/* Right Side - Tax Management & Average */}
+        <div className="flex flex-col gap-6 w-full">
           <div className="p-6 shadow-lg rounded-xl bg-white text-center">
-            <TotalCard/>
+            <TotalCard />
           </div>
-          
-          {/* Average Card */}
           <div className="p-6 shadow-lg rounded-xl bg-white text-center">
-            <AverageCard/>
+            <AverageCard />
           </div>
         </div>
 
-        {/* Tax Management Card */}
-        <div className="flex gap-6 w-full">
-  {/* Tax Management Chart */}
-  <div className="flex-1 p-6 shadow-lg rounded-xl bg-white">
-    <TaxManagementChart />
-  </div>
-
-  {/* Budget History Card */}
-  <div className="flex-1 p-6 shadow-lg rounded-xl bg-white">
-    <BudgetHistory/>
-  </div>
-</div>
-
-        {/* Payroll Calendar Card */}
-       
+        {/* Tax Management & Budget History */}
+        <div className="flex flex-col md:flex-row gap-6 w-full">
+          <div className="flex-1 p-6 shadow-lg rounded-xl bg-white">
+            <TaxManagementChart />
+          </div>
+          <div className="flex-1 p-6 shadow-lg rounded-xl bg-white">
+            <BudgetHistory />
+          </div>
+        </div>
       </div>
 
       {/* Second Part - 30% Width */}
-      <div className="col-span-4 grid gap-6">
-      <PayrollCalendarCard/>
-      
+      <div className="lg:col-span-4 grid gap-6">
+        <PayrollCalendarCard />
       </div>
     </div>
    
