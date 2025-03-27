@@ -26,7 +26,7 @@ const Earning = () => {
     { name: "Payroll", path: "/payroll" },
     { name: "Earning", path: "/earning" },
     { name: "Calendar", path: "/statement" },
-    { name: "Payroll Management", path: "/Statement" },
+    { name: "Payroll Management", path: "/payrollmgmt" },
   ];
 
   return (

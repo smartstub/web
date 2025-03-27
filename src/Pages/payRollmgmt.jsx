@@ -5,8 +5,8 @@ import seti from "../images/settingicon.png";
 import user from "../images/profile_pic.png";
 import vector from "../images/Vector.png";
 import Card from "../components/Common/card"
-import PaycheckGrid from "../components/Common/paychecks"
 import PayrollCalendarCard from "../components/Common/payRoll"
+import PayrolluserForm from "../components/Common/payrolluser"
 
 // import { Card } from "@/components/ui/card";
 import { DropdownMenu} from "../components/Common/dropdown";
@@ -17,7 +17,7 @@ import { IoPowerOutline } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";  
 import { useNavigate } from "react-router-dom";
 
-const Payroll = () => {
+const Payrollmgmt = () => {
   const [open, setOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const navigate = useNavigate();
@@ -147,7 +147,7 @@ const Payroll = () => {
     <div className="mt-4 p-4 flex flex-col sm:flex-row items-center justify-between space-y-3 sm:space-y-0">
       <div className="text-center sm:text-left">
         <h1 className="text-[#ffffff] font-bold text-[1.6rem] sm:text-[1.8rem]" style={{ fontFamily: "Neue Power" }}>
-        Payroll
+        Payroll Mangement
         </h1>
         <p className="text-[#b4e930] text-sm">
           Lorem Ipsum is simply dummy text of the printing industry.
@@ -173,13 +173,13 @@ const Payroll = () => {
   {/* Left Section - 60% Width */}
   <div className="col-span-1 md:col-span-6">
     <div className="w-full p-6 bg-white shadow-lg rounded-2xl border border-gray-200">
-    <PaycheckGrid/>
+     <PayrolluserForm/>
     </div>
   </div>
 
   {/* Right Section - 40% Width */}
   <div className="col-span-1 md:col-span-4">
-  <PayrollCalendarCard/>
+  
   </div>
 </div>
 
@@ -188,4 +188,4 @@ const Payroll = () => {
   );
 };
 
-export default Payroll;
+export default Payrollmgmt;

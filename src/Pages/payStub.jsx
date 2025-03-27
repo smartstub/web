@@ -25,9 +25,8 @@ const Paystub = () => {
     { name: "Payroll", path: "/payroll" },
     { name: "Earning", path: "/earning" },
     { name: "Calendar", path: "/statement" },
-    { name: "Payroll Management", path: "/paystub" },
+    { name: "Payroll Management", path: "/payrollmgmt" },
   ];
-
   return (
     <>
     

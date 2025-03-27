@@ -18,6 +18,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import SignUp from "./pages/signup";
+import Payrollmgmt from "./pages/payRollmgmt"
 // import maintainence from "./Pages/maintainence";
 // import Waranty from "./Pages/waranty";
 // import Settings from "./Pages/Settings";
@@ -59,6 +60,7 @@ function App() {
         <Route path="/statement" element={<Statement />} />
         <Route path="/summary" element={<Summary />} />
         <Route path="/Userprofile" element={<Userprofile />} />
+        <Route path="/Payrollmgmt" element={<Payrollmgmt />} />
 
         {/* <Route path="/dashboard" exact element={<Protected Children={Dashboard} isLoggedIn={localStorage.getItem("token")!=null}/>} /> */}
         {/* <Route path="/vin" exact element={<Protected Children={VINcode} isLoggedIn={localStorage.getItem("token")!=null} />} />
