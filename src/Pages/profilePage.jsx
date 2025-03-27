@@ -6,6 +6,7 @@ import user from "../images/profile_pic.png";
 import vector from "../images/Vector.png";
 import Card from "../components/Common/card"
 import PayrollCalendarCard from "../components/Common/payRoll"
+import UserEditForm from "../components/Common/usereditform"
 
 // import { Card } from "@/components/ui/card";
 import { DropdownMenu} from "../components/Common/dropdown";
@@ -15,8 +16,8 @@ import { FaRegCalendarAlt } from "react-icons/fa";
 import { IoPowerOutline } from "react-icons/io5";  
 import { IoMdClose } from "react-icons/io";  
 import { useNavigate } from "react-router-dom";
-
-const Paystub = () => {
+import ProfileImagePicker from "../components/Common/profileimagepicker"
+const Userprofile = () => {
   const [open, setOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const navigate = useNavigate();
@@ -74,10 +75,10 @@ const Paystub = () => {
         <span className="bg-[#b4e930] p-2 rounded-full">
           <img src={seti} alt="Settings" className="w-5" />
         </span>
-        <div className="w-8 h-8 rounded-full bg-gray-200 overflow-hidden" onClick={() => navigate("/Userprofile")}>
+        <div className="w-8 h-8 rounded-full bg-gray-200 overflow-hidden"onClick={() => navigate("/Userprofile")}>
           <img src={user} alt="Profile" />
         </div>
-        <div className="relative">
+         <div className="relative">
       {/* Dropdown Icon */}
       <img
         src={vector} // Replace with the actual path
@@ -143,26 +144,19 @@ const Paystub = () => {
     )}
 
     {/* Greeting Section */}
-    <div className="mt-4 p-4 flex flex-col sm:flex-row items-center justify-between space-y-3 sm:space-y-0">
-      <div className="text-center sm:text-left">
-        <h1 className="text-[#ffffff] font-bold text-[1.6rem] sm:text-[1.8rem]" style={{ fontFamily: "Neue Power" }}>
-        Pay Stubs
-        </h1>
-        <p className="text-[#b4e930] text-sm">
-          Lorem Ipsum is simply dummy text of the printing industry.
-        </p>
-      </div>
-      <div className="flex items-center space-x-3">
-        <span className="p-2 rounded-full border border-[#ffffff]">
-          <IoPowerOutline size={16} className="text-[#ffffff]" />
-        </span>
-        <div className="flex items-center bg-[#b4e930] text-black px-3 py-1 rounded-full space-x-1">
-          <FaRegCalendarAlt size={16} className="text-[#ffffff]" />
-          <span className="text-sm text-[#ffffff]">Mon 04, 2025</span>
-          <span className="text-md text-[#ffffff]">▼</span>
-        </div>
-      </div>
-    </div>
+    <div className="mt-4 p-4 flex flex-col sm:flex-row items-center sm:items-start justify-between sm:gap-6">
+  <div className="text-center sm:text-left">
+    <h1 className="text-[#ffffff] font-bold text-[1.6rem] sm:text-[1.8rem]" style={{ fontFamily: "Neue Power" }}>
+      John Doe
+    </h1>
+    <p className="text-[#b4e930] text-sm">4140 Parker Rd. Allentown, New Mexico 31134</p>
+    <p className="text-[#b4e930] text-sm">(303) 555-0105</p>
+  </div>
+  <div className="flex items-center sm:items-start mt-4 sm:mt-0 sm:ml-4 sm:mr-[14rem]">
+    <ProfileImagePicker />
+  </div>
+</div>
+
     <hr className="mx-auto w-[75%] sm:w-[72rem] h-[1px] bg-[00000000] border-0 my-3" />
 
     
@@ -171,33 +165,14 @@ const Paystub = () => {
     <div className="grid grid-cols-1 md:grid-cols-10 gap-6 p-8 bg-[#f3f3f3] min-h-screen container mx-auto">
   {/* Left Section - 60% Width */}
   <div className="col-span-1 md:col-span-6">
-    <div className="w-full p-6 bg-white shadow-lg rounded-2xl border border-gray-200">
-      <h2 className="text-xl font-semibold text-[#033701] mb-4">Employee Information</h2>
-      <div className="space-y-2 text-gray-700">
-        <p><span className="font-semibold">Name:</span> <span className="text-[#033701] font-bold">John Doe</span></p>
-        <p><span className="font-semibold">Employee ID:</span> <span className="text-[#033701]">12345688</span></p>
-        <p ><span className="font-semibold ">Address:</span> 225 Main Street, Anytown, USA</p>
-        <p><span className="font-semibold">Contact Number:</span> 555-123-4567</p>
-        <p><span className="font-semibold">Mail:</span> <span className="text-blue-600">john.doe@gmail.com</span></p>
-      </div>
-
-      <h2 className="text-xl font-semibold text-[#033701] mt-6 mb-2">Earnings:</h2>
-      <p className="text-gray-700"><span className="font-semibold">Gross Earnings:</span> <span className="text-black font-bold">$2,500.00</span></p>
-      <p className="text-gray-700"><span className="font-semibold">Net Earnings:</span> <span className="text-black font-bold">$2,000.00</span></p>
-
-      <h2 className="text-xl font-semibold text-[#033701] mt-6 mb-2">Hours Worked:</h2>
-      <p className="text-gray-700"><span className="font-semibold">Regular Hours:</span> 80</p>
-      <p className="text-gray-700"><span className="font-semibold">Overtime Hours:</span> 10</p>
-
-      <h2 className="text-xl font-semibold text-[#033701] mt-6 mb-2">Pay Rates:</h2>
-      <p className="text-gray-700"><span className="font-semibold">Hourly Rate:</span> $25.00</p>
-      <p className="text-gray-700"><span className="font-semibold">Overtime Rate:</span> $37.00</p>
-    </div>
+    
+        <UserEditForm/>
+      
   </div>
 
   {/* Right Section - 40% Width */}
   <div className="col-span-1 md:col-span-4">
-  <PayrollCalendarCard/>
+  
   </div>
 </div>
 
@@ -206,4 +181,4 @@ const Paystub = () => {
   );
 };
 
-export default Paystub;
+export default Userprofile;

@@ -113,7 +113,10 @@ background: linear-gradient(61deg, rgba(3,55,1,1) 25%, rgba(102,155,27,1) 100%, 
   transform: translate(-6%, -50%);
   transition: 0.4s;
 }
+.modelbg{
+  background: linear-gradient(94.79deg, #005100 28.05%, #B4E930 100%);
 
+}
 .switch .text.active {
   transform: translate(-94%, -50%);
   transition: 0.4s;

@@ -12,6 +12,7 @@ import Earning from "./pages/earningBreakdown";
 import Paystub from "./pages/payStub";
 import Taxform from "./pages/taxForm";
 import Statement from "./pages/statement";
+import Userprofile from "./pages/profilePage";
 import Summary from "./pages/summary";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -57,6 +58,7 @@ function App() {
         <Route path="/taxform" element={<Taxform />} />
         <Route path="/statement" element={<Statement />} />
         <Route path="/summary" element={<Summary />} />
+        <Route path="/Userprofile" element={<Userprofile />} />
 
         {/* <Route path="/dashboard" exact element={<Protected Children={Dashboard} isLoggedIn={localStorage.getItem("token")!=null}/>} /> */}
         {/* <Route path="/vin" exact element={<Protected Children={VINcode} isLoggedIn={localStorage.getItem("token")!=null} />} />

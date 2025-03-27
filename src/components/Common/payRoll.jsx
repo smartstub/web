@@ -38,7 +38,7 @@ const PayrollCalendarCard = () => {
           {Array.from({ length: 30 }, (_, i) => i + 1).map((date) => (
             <div
               key={date}
-              className={`p-2 rounded-lg ${date === 7 ? "bg-[#033701] text-white font-bold" : "text-gray-700"}`}
+              className={`p-2 rounded-lg ${date === 7 ? "bg-[#b4e930] text-[#033701] font-bold" : "text-gray-700"}`}
             >
               {date}
             </div>

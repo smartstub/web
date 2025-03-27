@@ -25,6 +25,7 @@ import { IoMdClose } from "react-icons/io";
 
 const Dashboard = () => {
   const [open, setOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const navigate = useNavigate();
   const menuItems = [
     { name: "Home", path: "/" },
@@ -80,10 +81,42 @@ const Dashboard = () => {
         <span className="bg-[#b4e930] p-2 rounded-full">
           <img src={seti} alt="Settings" className="w-5" />
         </span>
-        <div className="w-8 h-8 rounded-full bg-gray-200 overflow-hidden">
+        <div className="w-8 h-8 rounded-full bg-gray-200 overflow-hidden"       onClick={() => navigate("/Userprofile")}
+        >
           <img src={user} alt="Profile" />
         </div>
-        <img src={vector} alt="Dropdown" className="w-4" />
+        <div className="relative">
+      {/* Dropdown Icon */}
+      <img
+        src={vector} // Replace with the actual path
+        alt="Dropdown"
+        className="w-4 cursor-pointer"
+        onClick={() => setIsModalOpen(true)}
+      />
+
+      {/* Modal */}
+      {isModalOpen && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-100  backdrop-blur-lg z-50">
+          <div className="modelbg p-6 rounded-lg shadow-lg text-white w-80">
+            <p className="text-lg font-bold text-[#fefefe] text-center" style={{ fontFamily: "Neue Power" }}>
+              Are you sure you want to logout?
+            </p>
+            <div className="flex justify-center mt-4">
+              <button
+                className="bg-[#b4e930] text-[#005100] px-4 py-2 rounded-full hover:bg-green-600 transition"
+                onClick={() => {
+                  setIsModalOpen(false);
+                  navigate("/"); 
+                  console.log("User Logged Out"); // Handle logout logic here
+                }}
+              >
+                Logout
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
       </div>
     </nav>
 
