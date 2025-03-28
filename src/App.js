@@ -14,6 +14,9 @@ import Taxform from "./pages/taxForm";
 import Statement from "./pages/statement";
 import Userprofile from "./pages/profilePage";
 import Summary from "./pages/summary";
+import Taxmgmt from "./pages/taxmgmt";
+import Terms from "./pages/termsAndCondition";
+import Help from "./pages/helpsection";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -58,6 +61,9 @@ function App() {
         <Route path="/paystub" element={<Paystub />} />
         <Route path="/taxform" element={<Taxform />} />
         <Route path="/statement" element={<Statement />} />
+        <Route path="/taxformmgmt" element={<Taxmgmt />} />
+        <Route path="/Terms" element={<Terms />} />
+        <Route path="/Help" element={<Help />} />
         <Route path="/summary" element={<Summary />} />
         <Route path="/Userprofile" element={<Userprofile />} />
         <Route path="/Payrollmgmt" element={<Payrollmgmt />} />
