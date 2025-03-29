@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/web/static/css/main.98d41d0d.css",
+    "main.js": "/web/static/js/main.037d753f.js",
+    "static/js/787.3c5cdac0.chunk.js": "/web/static/js/787.3c5cdac0.chunk.js",
+    "static/media/Futura Heavy font.ttf": "/web/static/media/Futura Heavy font.af72c25a6945b0f48abb.ttf",
+    "static/media/futura medium bt.ttf": "/web/static/media/futura medium bt.4e762c29ef7b44ca51cb.ttf",
+    "static/media/Futura Book font.ttf": "/web/static/media/Futura Book font.ed19af444f0976dbaf41.ttf",
+    "static/media/loginpageart.png": "/web/static/media/loginpageart.fdbc7633cbc2e91354a1.png",
+    "static/media/signupart.png": "/web/static/media/signupart.5857708f171533a7f79f.png",
+    "static/media/verifyscreenart.png": "/web/static/media/verifyscreenart.702e2860b7ca62947b3b.png",
+    "index.html": "/web/index.html",
+    "static/media/dark_mode_icon.svg": "/web/static/media/dark_mode_icon.d5509552e05d1439ee82.svg",
+    "static/media/tick_icon.svg": "/web/static/media/tick_icon.f68f183681460eef72f9.svg",
+    "main.98d41d0d.css.map": "/web/static/css/main.98d41d0d.css.map",
+    "main.037d753f.js.map": "/web/static/js/main.037d753f.js.map",
+    "787.3c5cdac0.chunk.js.map": "/web/static/js/787.3c5cdac0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98d41d0d.css",
+    "static/js/main.037d753f.js"
+  ]
+}
