@@ -1,6 +1,12 @@
 import { Pencil } from "lucide-react"; // Correct Edit Icon
-
+import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 export default function PayrolluserForm() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/Payrollmgmtfeature");
+  };
   return (
   
       <div className="">
@@ -39,7 +45,7 @@ export default function PayrolluserForm() {
 
         {/* Continue Button */}
         <div className="flex justify-start mt-6">
-          <button className="bg-green-700 text-[#fefefe] font-semibold py-2 px-8 rounded-full shadow-md hover:bg-green-800 transition">
+          <button  onClick={handleClick} className="bg-green-700 text-[#fefefe] font-semibold py-2 px-8 rounded-full shadow-md hover:bg-green-800 transition">
             Continue
           </button>
         </div>

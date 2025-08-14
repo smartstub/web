@@ -3,7 +3,7 @@ import React from "react";
 const EmployeeTaxReport = () => {
   return (
     
-      <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-8">
+      <div className="">
         {/* Employee Information */}
         <div>
           <h2 className="text-green-800 text-xl font-bold">Employee Information</h2>

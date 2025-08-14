@@ -11,8 +11,8 @@ const PayrollSummary = () => {
   ];
 
   return (
-    <div className="min-h-screen  flex justify-center">
-      <div className="shadow-lg rounded-xl p-6 w-full max-w-3xl overflow-auto">
+    
+      <div className="">
         <div className="space-y-6">
           {payrollData.map((item, index) => (
             <div key={index} className="flex flex-col md:flex-row bg-gray-100 rounded-lg shadow-sm p-4">
@@ -48,7 +48,7 @@ const PayrollSummary = () => {
           ))}
         </div>
       </div>
-    </div>
+    
   );
 };
 

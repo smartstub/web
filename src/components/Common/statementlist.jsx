@@ -14,7 +14,7 @@ const transactions = [
 export default function SelectTenure() {
   return (
     <div className="">
-      <div className="w-full max-w-4xl bg-white shadow-lg rounded-lg p-6">
+      {/* <div className="w-full max-w-4xl bg-white shadow-lg rounded-lg p-6"> */}
         <div className="flex items-center space-x-2 border rounded-lg p-2 mb-4 bg-gray-100">
           <Search className="text-gray-400" size={20} />
           <input
@@ -48,7 +48,7 @@ export default function SelectTenure() {
             </div>
           ))}
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 }

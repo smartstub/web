@@ -17,7 +17,7 @@ const BudgetHistory = () => {
     <div className="">
       {/* Header */}
       <div className="flex justify-between items-center">
-        <h3 className="text-lg font-bold text-[#033701]">Budget History</h3>
+        <h3 className="text-2xl  font-NeuePowerBold text-[#033701]">Budget History</h3>
         <button className="flex items-center gap-2 px-4 py-2 border border-[#b4e930] text-[#033701] rounded-full text-sm">
           Month <ChevronDown size={16} />
         </button>
@@ -39,7 +39,7 @@ const BudgetHistory = () => {
       </p>
 
       {/* Table */}
-      <div className="mt-4 overflow-x-auto">
+      <div className="mt-4 p-2 overflow-x-auto">
         <table className="w-full border-collapse text-sm">
           <thead>
             <tr className="text-left text-gray-600 border-b">

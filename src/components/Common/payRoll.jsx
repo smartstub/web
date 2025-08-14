@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
+
 const months = [
   "January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
@@ -13,7 +14,7 @@ const PayrollCalendarCard = () => {
     <div className="p-6 shadow-lg rounded-xl bg-white">
       {/* Header with Title & Dropdown */}
       <div className="flex justify-between items-center">
-        <h3 className="text-xl font-bold text-[#033701]">Payroll Calendar</h3>
+        <h3 className="text-2xl font-NeuePowerBold text-[#033701]">Payroll Calendar</h3>
         <div className="relative">
           <select
             className="flex items-center gap-2 px-4 py-2 border border-[#b4e930] text-[#033701] rounded-full text-sm"

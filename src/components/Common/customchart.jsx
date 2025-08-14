@@ -21,8 +21,8 @@ const CustomBarChart = () => {
     <div className="h-full w-full flex flex-col">
   <div className="flex justify-between items-center mb-2">
     <div>
-      <p className="text-sm text-gray-500">Month</p>
-      <h2 className="text-xl font-bold text-[#033701]">{selectedMonth}, 04 - 2025</h2>
+      <p className="text-sm font-NeuePower text-gray-500">Month</p>
+      <h2 className="text-2xl font-NeuePowerBold text-[#033701]">{selectedMonth}, 04 - 2025</h2>
     </div>
    
     <select

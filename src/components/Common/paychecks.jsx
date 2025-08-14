@@ -12,7 +12,7 @@ const paychecks = [
 export default function PaycheckGrid() {
   return (
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-4xl w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 ">
         {paychecks.map((paycheck, index) => (
           <div key={index} className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 w-full overflow-hidden">
             <div className="flex justify-between items-center">

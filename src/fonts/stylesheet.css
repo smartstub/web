@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Neue Power';
+    src: url('NeuePower-Medium.eot');
+    src: local('Neue Power Medium'), local('NeuePower-Medium'),
+        url('NeuePower-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NeuePower-Medium.woff2') format('woff2'),
+        url('NeuePower-Medium.woff') format('woff'),
+        url('NeuePower-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Power';
+    src: url('NeuePower-MediumOblique.eot');
+    src: local('Neue Power Medium Oblique'), local('NeuePower-MediumOblique'),
+        url('NeuePower-MediumOblique.eot?#iefix') format('embedded-opentype'),
+        url('NeuePower-MediumOblique.woff2') format('woff2'),
+        url('NeuePower-MediumOblique.woff') format('woff'),
+        url('NeuePower-MediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Power';
+    src: url('NeuePower-Ultra.eot');
+    src: local('Neue Power Ultra'), local('NeuePower-Ultra'),
+        url('NeuePower-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('NeuePower-Ultra.woff2') format('woff2'),
+        url('NeuePower-Ultra.woff') format('woff'),
+        url('NeuePower-Ultra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Power';
+    src: url('NeuePower-Light.eot');
+    src: local('Neue Power Light'), local('NeuePower-Light'),
+        url('NeuePower-Light.eot?#iefix') format('embedded-opentype'),
+        url('NeuePower-Light.woff2') format('woff2'),
+        url('NeuePower-Light.woff') format('woff'),
+        url('NeuePower-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Power';
+    src: url('NeuePower-Regular.eot');
+    src: local('Neue Power Regular'), local('NeuePower-Regular'),
+        url('NeuePower-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NeuePower-Regular.woff2') format('woff2'),
+        url('NeuePower-Regular.woff') format('woff'),
+        url('NeuePower-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Power';
+    src: url('NeuePower-BoldOblique.eot');
+    src: local('Neue Power Bold Oblique'), local('NeuePower-BoldOblique'),
+        url('NeuePower-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('NeuePower-BoldOblique.woff2') format('woff2'),
+        url('NeuePower-BoldOblique.woff') format('woff'),
+        url('NeuePower-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Power';
+    src: url('NeuePower-HeavyOblique.eot');
+    src: local('Neue Power Heavy Oblique'), local('NeuePower-HeavyOblique'),
+        url('NeuePower-HeavyOblique.eot?#iefix') format('embedded-opentype'),
+        url('NeuePower-HeavyOblique.woff2') format('woff2'),
+        url('NeuePower-HeavyOblique.woff') format('woff'),
+        url('NeuePower-HeavyOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Power';
+    src: url('NeuePower-LightOblique.eot');
+    src: local('Neue Power Light Oblique'), local('NeuePower-LightOblique'),
+        url('NeuePower-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('NeuePower-LightOblique.woff2') format('woff2'),
+        url('NeuePower-LightOblique.woff') format('woff'),
+        url('NeuePower-LightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Power';
+    src: url('NeuePower-RegularOblique.eot');
+    src: local('Neue Power Regular Oblique'), local('NeuePower-RegularOblique'),
+        url('NeuePower-RegularOblique.eot?#iefix') format('embedded-opentype'),
+        url('NeuePower-RegularOblique.woff2') format('woff2'),
+        url('NeuePower-RegularOblique.woff') format('woff'),
+        url('NeuePower-RegularOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Power';
+    src: url('NeuePower-Bold.eot');
+    src: local('Neue Power Bold'), local('NeuePower-Bold'),
+        url('NeuePower-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NeuePower-Bold.woff2') format('woff2'),
+        url('NeuePower-Bold.woff') format('woff'),
+        url('NeuePower-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Power';
+    src: url('NeuePower-UltraOblique.eot');
+    src: local('Neue Power Ultra Oblique'), local('NeuePower-UltraOblique'),
+        url('NeuePower-UltraOblique.eot?#iefix') format('embedded-opentype'),
+        url('NeuePower-UltraOblique.woff2') format('woff2'),
+        url('NeuePower-UltraOblique.woff') format('woff'),
+        url('NeuePower-UltraOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Power';
+    src: url('NeuePower-Heavy.eot');
+    src: local('Neue Power Heavy'), local('NeuePower-Heavy'),
+        url('NeuePower-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('NeuePower-Heavy.woff2') format('woff2'),
+        url('NeuePower-Heavy.woff') format('woff'),
+        url('NeuePower-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

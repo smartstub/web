@@ -42,6 +42,20 @@
   font-display: swap;
   font-style: normal;
 }
+@font-face {
+  font-family: "Neue-Power";
+  src: url("./fonts/NeuePower-Regular.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Neue-Power-bold";
+  src: url("./fonts/NeuePower-Bold.woff2") format("woff2"); /* Make sure this is the bold file */
+  font-weight: 800; /* Use 700 for bold */
+  font-style: normal;
+  font-display: swap;
+}
 
 body {
   margin: 0;

@@ -15,7 +15,7 @@ const TaxManagementChart = () => {
       {/* Header Section */}
       <div className="flex justify-between items-center mb-4">
         <div>
-          <h2 className="text-2xl font-bold text-[#033701]">Tax Management</h2>
+          <h2 className="text-2xl font-NeuePowerBold text-[#033701]">Tax Management</h2>
           <p className="text-gray-600 text-sm">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           </p>

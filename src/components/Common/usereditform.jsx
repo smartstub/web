@@ -2,7 +2,7 @@ import { Pencil } from "lucide-react"; // Correct Edit Icon
 
 export default function UserEditForm() {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100 p-4">
+    <div className="">
       <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-4xl">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {/* Input Fields */}

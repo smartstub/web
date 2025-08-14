@@ -8,6 +8,12 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
+        
+        f_18_l_28: [
+  "18px",          // font size
+  { lineHeight: "28px" }, // line height
+],
+
         f_11_l_14: [
           "11px",
           {
@@ -158,6 +164,9 @@ module.exports = {
         supremeRegular: "Supreme-Regular, sans-serif",
         supremeMedium: "Supreme-Medium, sans-serif",
         supremeBold: "Supreme-Bold, sans-serif",
+        NeuePower: "Neue-Power, sans-serif",
+        NeuePowerBold: "Neue-Power-bold, sans-serif",
+
       },
 
       colors: {

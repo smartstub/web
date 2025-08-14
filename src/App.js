@@ -12,11 +12,13 @@ import Earning from "./pages/earningBreakdown";
 import Paystub from "./pages/payStub";
 import Taxform from "./pages/taxForm";
 import Statement from "./pages/statement";
+import Stripe from "./pages/stripe";
 import Userprofile from "./pages/profilePage";
 import Summary from "./pages/summary";
 import Taxmgmt from "./pages/taxmgmt";
 import Terms from "./pages/termsAndCondition";
 import Help from "./pages/helpsection";
+import Payrollmgmtfeature from "./pages/payrollmgmtfeature";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -66,7 +68,9 @@ function App() {
         <Route path="/Help" element={<Help />} />
         <Route path="/summary" element={<Summary />} />
         <Route path="/Userprofile" element={<Userprofile />} />
+        <Route path="/stripe" element={<Stripe />} />
         <Route path="/Payrollmgmt" element={<Payrollmgmt />} />
+        <Route path="/Payrollmgmtfeature" element={<Payrollmgmtfeature />} />
 
         {/* <Route path="/dashboard" exact element={<Protected Children={Dashboard} isLoggedIn={localStorage.getItem("token")!=null}/>} /> */}
         {/* <Route path="/vin" exact element={<Protected Children={VINcode} isLoggedIn={localStorage.getItem("token")!=null} />} />
